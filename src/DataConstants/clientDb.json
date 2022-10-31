@@ -1,0 +1,46 @@
+{
+  "clients": [
+    {
+      "id": 1,
+      "client_name": "Drills r US",
+      "state": "TN",
+      "num_of_inventories": 2,
+      "num_of_contacts": 4
+    },
+    {
+        "id": 2,
+        "client_name": "Kruger",
+        "state": "KY",
+        "num_of_inventories": 9001,
+        "num_of_contacts": 45
+    },
+    {
+        "id": 7,
+        "client_name": "Lowels",
+        "state": "CA",
+        "num_of_inventories": 60,
+        "num_of_contacts": 1
+    },
+    {
+        "id": 9,
+        "client_name": "Pooblix",
+        "state": "AL",
+        "num_of_inventories": 314159,
+        "num_of_contacts": 205
+    },
+    {
+        "id": 4,
+        "client_name": "Amazoom",
+        "state": "CO",
+        "num_of_inventories": 100,
+        "num_of_contacts": 25
+    },
+    {
+        "id": 6,
+        "client_name": "EB Gamers",
+        "state": "UT",
+        "num_of_inventories": 26,
+        "num_of_contacts": 4
+    }
+  ]
+}
