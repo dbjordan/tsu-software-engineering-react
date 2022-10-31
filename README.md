@@ -68,3 +68,22 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/d
 ### `npm run build` fails to minify
 
 This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+
+# Helpful guide
+0. Install node.js and whatever IDE you want.
+1. Create a new project by opening a terminal and entering in: npx create-react-app <app-name>
+	a. Install create-react-app if not installed.
+2. After everything is created, change directories to your new project in your terminal and start the app: npm start
+3. Cancel the running server. 
+4. Add bulma to the project using: npm install bulma --save
+5. Add react-router using: npm install react-router-dom --save
+6. Add typescript to the application: npm install --save typescript @types/node @types/react @types/react-dom @types/jest
+7. Add a typescript.json file: npx tsc --init
+
+
+Helpful Links:
+https://bulma.io/
+https://reactjs.org/tutorial/tutorial.html
+https://reactrouter.com/en/main
+https://create-react-app.dev/docs/adding-typescript/
+https://github.com/typicode/json-server
