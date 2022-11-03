@@ -76,7 +76,7 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/t
 
 # Run your json-server
 1. Go to the DataConstants folder in a new terminal.
-2. Run the following: ```json-server --watch clientDb.json --port 8040
+2. Run the following: ```json-server --watch clientDb.json --port 8040```
  
 Helpful Links:
 * https://bulma.io/
