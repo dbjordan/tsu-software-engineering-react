@@ -37,7 +37,8 @@ function Header() {
             <div id="navbarBasicExample" className="navbar-menu">
                 <div className="navbar-start">
                     <a className="navbar-item" href="/">Home</a>
-                    <a className="navbar-item" href="/about">About</a>
+                    <a className="navbar-item" href="/about">Inventory List</a>
+                    <a className="navbar-item" href="/about">Resources List</a>
                 </div>
             </div>
         </nav>

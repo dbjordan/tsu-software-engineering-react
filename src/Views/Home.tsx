@@ -111,7 +111,7 @@ export default function Main() {
   
   return (
     <>
-      <h2 className="is-size-2 pb-6 has-text-weight-medium">Client List</h2>
+      <h2 className="is-size-2 pb-6 has-text-weight-medium"> Client Homepage</h2>
       <div className="box columns is-centered is-radiusless">
         <div className="column is-12 px-0 py-0"> 
             <table className="table is-striped is-fullwidth">
@@ -134,7 +134,7 @@ export default function Main() {
                       <td>{(row.InventoryCount ? row.InventoryCount.toString() : "")}</td>
                       <td>{(row.ContactCount ? row.ContactCount.toString() : "")}</td>
                       <td><button className="button is-dark" onClick={() => showModal(i)}>View Client Details</button></td>
-                    </tr> 
+                    </tr>
                   )}
                 </tbody>
             </table>
