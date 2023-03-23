@@ -1,10 +1,10 @@
 .test-app-header a, .test-app-header .navbar-burger, .footer .navbar-item, .footer ul{
-  color: white;
+  color: DodgerBlue;
 }
 
 .test-app-header a:hover, .test-app-header .navbar-burger:hover, .footer .navbar-item:hover{
   color: white;
-  background-color: grey;
+  background-color: DodgerBlue;
 }
 
 .navbar-menu{
