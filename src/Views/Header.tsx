@@ -1,5 +1,6 @@
 import "../App.css";
-
+//import { faBell } from "@fortawesome/free-solid-svg-icons";
+//import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 
 function onClickHandler(){
     const $navbarBurgers = Array.prototype.slice.call(document.querySelectorAll(".navbar-burger"), 0);
@@ -39,6 +40,7 @@ function Header() {
                     <a className="navbar-item" href="/">Home</a>
                     <a className="navbar-item" href="/about">Inventory List</a>
                     <a className="navbar-item" href="/about">Resources List</a>
+                    <a className="navbar-item" href="/about">Profile</a>
                 </div>
             </div>
         </nav>
