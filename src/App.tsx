@@ -16,14 +16,13 @@ import {
 function App() {
   return (
          <Router>
-           <Routes>
-               <Route path="login" element={<Login />}>
-                <Route path ="home" element={<Home />}/>
-                 <Route index element={<Home/>}></Route>
-                  <Route path="about" element={<About/>}></Route>
-                  <Route path="blogs" element={<Blogs/>}></Route>
-               </Route>
-             </Routes>
+            <Routes>
+                <Route path="/">
+                    <Route index element={<Home/>}></Route>
+                    <Route path="login" element={<Login />}>
+                    <Route path="about" element={<About/>}></Route>
+                </Route>
+            </Routes>
          </Router>
          );
         }
