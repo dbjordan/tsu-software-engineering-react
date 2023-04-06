@@ -7,7 +7,6 @@ function Footer() {
                 <ul>
                     <li><a className="navbar-item" href="/">Home</a></li>
                     <li><a className="navbar-item" href="/about">About</a></li>
-                    <li><a className="navbar-item" href="/about">Blogs</a></li>
                 </ul>
             </div>
         </footer>

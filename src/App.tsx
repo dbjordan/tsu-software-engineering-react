@@ -2,9 +2,11 @@
  import About from "./Views/About";
  import Home from "./Views/Home";
  import Login from "./Pages/Login";
+ import CreateAccount from "./Pages/CreateAccount"
+ //import InventoryList from "./Pages/InventoryList"
 //
  import Blogs from "./Views/Blogs";
-// //import Contact from "./Views/Contact";
+import {BasicTable} from "./Pages/BasicTable";
 //
 import React from "react";
 import {
@@ -12,18 +14,22 @@ import {
   Routes,
   Route
 } from "react-router-dom";
-
 function App() {
   return (
-         <Router>
-            <Routes>
-                <Route path="/">
-                    <Route index element={<Home/>}></Route>
-                    <Route path="login" element={<Login />}>
-                    <Route path="about" element={<About/>}></Route>
-                </Route>
-            </Routes>
-         </Router>
+          <Router>
+             <Routes>
+                 <Route path="/">
+                     <Route path="home" element={<Home/>}></Route>
+                     <Route index element={<Login />}></Route>
+                     <Route path="createAccount" element={<CreateAccount />}></Route>
+                     <Route path="about" element={<About/>}></Route>
+                 </Route>
+             </Routes>
+          </Router>
          );
-        }
+    }
 export default App;
+
+
+
+

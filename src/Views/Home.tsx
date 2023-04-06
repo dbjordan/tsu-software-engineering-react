@@ -2,10 +2,8 @@ import { useEffect, useState } from "react";
 import "../App.css";
 import {ClientTableRow, ClientTableJsonObject, getClientTable} from "../DataObjects/ClientTableInterface";
 import { INIT_RESULT_DATA } from "../DataConstants/ClientTableConstants";
-
-
-
-
+import dummyData from "../DataConstants/clientDb.json";
+const data: any = dummyData;
 export default function Main() {
     
   const [tableData, setTableData] = useState<ClientTableRow[]>([INIT_RESULT_DATA]);
@@ -126,14 +124,15 @@ export default function Main() {
                   </tr>
                 </thead>
                 <tbody>
-                  {tableData.map((row, i) =>
+                  {data.clients.map((row:any, i:number) =>
                     <tr id={(row.id ? row.id.toString() : "")}>
                       <td>{(row.id ? row.id.toString() : "")}</td>
-                      <td>{(row.ClientName ? row.ClientName : "")}</td>
-                      <td>{(row.AddressState ? row.AddressState : "")}</td>
-                      <td>{(row.InventoryCount ? row.InventoryCount.toString() : "")}</td>
-                      <td>{(row.ContactCount ? row.ContactCount.toString() : "")}</td>
+                      <td>{(row.client_name ? row.client_name : "")}</td>
+                      <td>{(row.state ? row.state : "")}</td>
+                      <td>{(row.num_of_inventories ? row.num_of_inventories.toString() : "")}</td>
+                      <td>{(row.num_of_contacts ? row.num_of_contacts.toString() : "")}</td>
                       <td><button className="button is-dark" onClick={() => showModal(i)}>View Client Details</button></td>
+                      <td><button className="button is-dark" onClick={() => showModal(i)}>Edit Client Details</button></td>
                     </tr>
                   )}
                 </tbody>

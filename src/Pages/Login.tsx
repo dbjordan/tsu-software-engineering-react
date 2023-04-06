@@ -1,13 +1,9 @@
 import React from "react";
 import "../App.css";
-// import {
-//   BrowserRouter as Router,
-//   Routes,
-//   Route
-// } from "react-router-dom";
-// //import "./login.scss";
-// import { Navigate } from "react-router-dom";
+import {useNavigate} from "react-router-dom";
 function Login() {
+const navigate = useNavigate();
+const goToHome = () => navigate("/home");
     return(
    <div className="Login">
          <div className="LoginBox">
@@ -21,7 +17,7 @@ function Login() {
                />
            </div>
              <div style={{display:"flex", justifyContent:"center"}}>
-               <button className="submitbutton">Login</button>
+               <button onClick={goToHome} className="submitbutton">Login</button>
              </div>
              <div className="CreateAccount">Don't have an account? Click here to create an account.</div>
             </div>

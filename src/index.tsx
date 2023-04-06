@@ -9,7 +9,7 @@ import Footer from "./Views/Footer";
 const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(
   <React.StrictMode>
-    
+
     <Header/>
     <div className="section is-small is-fluid has-background-light">
       <App />
@@ -17,4 +17,3 @@ root.render(
     <Footer/>
   </React.StrictMode>
 );
-
