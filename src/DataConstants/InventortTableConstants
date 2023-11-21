@@ -1,0 +1,6 @@
+import {InventoryTableRow} from '../DataObjects/InventoryTableInterface';
+
+export const INIT_RESULT_DATA: InventoryTableRow = {
+  id: -1,
+  Inventory: 0,
+};
